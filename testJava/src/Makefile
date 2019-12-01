@@ -13,8 +13,8 @@ CC = javac
 JAR = jar
 
 all : check_build_system
-	$(CC) src/*.java
-	$(JAR) cvfm test.jar src/META-INF/MANIFEST.MF src/*.class
+	$(CC) *.java
+	$(JAR) cvfm test.jar META-INF/MANIFEST.MF *.class
 	
 
 check_build_system:
