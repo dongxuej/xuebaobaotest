@@ -6,9 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello World!");
-        IDream somedream = new ChildDream();
         Person p = new Person();
-        p.sleep(somedream);
+        p.sleep();
         System.out.println("end of main!");
     }
 }
