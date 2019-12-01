@@ -13,8 +13,9 @@ CC = javac
 JAR = jar
 
 all : check_build_system
-	$(CC) *.java dream/*.java selfdir/*.java
-	$(JAR) cvfm test.jar META-INF/MANIFEST.MF *.class dream/*.class selfdir/*.class
+	$(CC) *.java dream/*.java selfdir/*.java deract/*.java
+	$(JAR) cvfm test.jar META-INF/MANIFEST.MF *.class\
+	 dream/*.class selfdir/*.class deract/*.class
 	
 
 check_build_system:
