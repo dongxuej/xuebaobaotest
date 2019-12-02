@@ -1,5 +1,6 @@
 package dream;
 
+import dream.base.IDream;
 import dream.denum.EDuringDay;
 
 import java.util.Calendar;
@@ -31,6 +32,8 @@ public class DreamHelper {
             case NOON:
                 dream = new AdultDream();
                 break;
+            case EVENING:
+                dream = new SeniorsDream();
             default:
                 break;
         }

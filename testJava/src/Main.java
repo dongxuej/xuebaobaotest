@@ -2,8 +2,6 @@ import deract.ChuanJiaDan;
 import deract.PaoGuan;
 import deract.Tank;
 import deract.WangYuanJing;
-import dream.ChildDream;
-import dream.IDream;
 import selfdir.Person;
 
 public class Main {
