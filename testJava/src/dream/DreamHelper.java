@@ -29,6 +29,9 @@ public class DreamHelper {
             case EARLY_MORNING:
                 dream = new ChildDream();
                 break;
+            case MORNING:
+                dream = new TeenagerDream();
+                break;
             case NOON:
                 dream = new AdultDream();
                 break;
