@@ -1,7 +1,7 @@
 package selfdir;
 
 import dream.DreamHelper;
-import dream.IDream;
+import dream.base.IDream;
 
 public class Person {
     public void sleep(){
