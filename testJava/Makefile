@@ -2,7 +2,7 @@
 
 #jar cvfm my.jar MANIFEST.MF *.class
 
-default_target: all
+default_target: all deleate_temp
 
 .PHONY : default_target
 
@@ -39,6 +39,10 @@ create_des_dir:
 	@mkdir $(DES_DIR)
 .PHONY : create_des_dir
 
+deleate_temp:
+	@echo "deleate_temp dir..."
+	@rm -rf $(DES_DIR)
+.PHONY : deleate_temp
 check_build_system : create_des_dir
 	@echo "\ncheck_build_system..."
 
