@@ -1,4 +1,4 @@
-public class Main {
+public class selectSort {
     public  static <T extends Comparable<? super T>> T[] selectSort(T[] array){
         for (int i=0;i<array.length;i++){
             int indexMin=i;
